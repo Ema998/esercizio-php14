@@ -11,7 +11,7 @@ class IronMan{
     public $attack2;
     public $move;
 
-    public function __construct(BraccioDestro1 $attack1, BraccioSinistro1 $attack2, Gambe $move){
+    public function __construct(BraccioDestro $attack1, BraccioSinistro $attack2, Gambe $move){
         $this->attack1 = $attack1;
         $this->attack2 = $attack2;
         $this->move = $move;
@@ -27,7 +27,7 @@ class IronMan{
     }
 
     public function move(){
-        $this->move->move();
+       $this->move->move();
     }
 }
 ?>

@@ -1,5 +1,5 @@
 <?php 
-abstract class BraccioSinistro1{
+abstract class BraccioSinistro{
     public abstract function attack2();
 }
 ?>

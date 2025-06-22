@@ -1,4 +1,4 @@
 <?php 
-abstract class BraccioDestro1{
+abstract class BraccioDestro{
     public abstract function attack1();
 }
